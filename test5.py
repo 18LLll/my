@@ -6,7 +6,7 @@ st.set_page_config(page_title='音乐播放器', page_icon='🔉')
 st.title("🎶简易音乐播放器")
 st.markdown("##### 使用Streamlit制作的音乐播放器，支持切歌和播放控制")
 
-#将当前的音乐索引存储在内存的ind变量中，如果内存中五ind则设置为0
+#将当前的音乐索引存储在内存的ind变量中，如果内存中无ind则设置为0
 if 'ind' not in st.session_state:
     st.session_state['ind']=0
 
@@ -16,7 +16,7 @@ audio_file =[{
         'artist': "永彬Ryan.B/周延英（英子-effie）",
         'duration': "3:35",
         'url':"https://music.163.com/song/media/outer/url?id=550138197.mp3",
-        'image':"http://i.qiyehai.com/edu/202210/02/13-24-13-139664-1.jpg",
+        'image':"http://p2.music.126.net/VAux0wpbTJz6timFFHVgLQ==/109951163237307291.jpg?param=130y130",
         'text':'没有理由的歌曲封面'
     },{
         'title': "КаминJONY x EMIN ~ Mix壁炉(快版)",
